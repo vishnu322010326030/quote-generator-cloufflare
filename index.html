@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quote Generator</title>
+</head>
+<body>
+  <h1>Random Quote Generator</h1>
+  <p id="quote">Click the button to get a quote.</p>
+  <button onclick="showQuote()">Get Quote</button>
+
+  <script>
+    const quotes = [
+      "Code. Learn. Improve. Repeat.",
+      "Small projects build strong skills.",
+      "Consistency beats intensity.",
+      "Debugging is where real learning happens.",
+      "Build first, improve later."
+    ];
+
+    function showQuote() {
+      const random = Math.floor(Math.random() * quotes.length);
+      document.getElementById("quote").innerText = quotes[random];
+    }
+  </script>
+</body>
+</html>
