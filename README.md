@@ -10,5 +10,4 @@ Simple web app that displays random quotes on button click.
 - JavaScript
 - Cloudflare Pages
 
-## Live
-https://your-link.pages.dev
+
